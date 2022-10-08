@@ -30,7 +30,7 @@ func init() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("mongodb connection success")
+	fmt.Println("mongo connection success")
 
 	collection = client.Database(dbname).Collection(collist)
 
